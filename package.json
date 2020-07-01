@@ -1,0 +1,20 @@
+{
+  "name": "httping",
+  "version": "1.0.0",
+  "description": "Basically a ping speed measurer for http services.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Constantin",
+  "license": "ISC",
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0"
+  },
+  "bin": "bin.js",
+  "pkg": {
+    "scripts": "./util.js"
+  }
+}
